@@ -30,9 +30,15 @@ To write a Python program that sorts a dictionary's:
 ---
 
 ## 🧪Program
-Add Code here
+```
+from collections import OrderedDict
+d = {'ravi': '10', 'rajnish': '9', 'sanjeev': '15', 'yash': '2', 'suraj': '32'}
+sorted_dict = OrderedDict(sorted(d.items()))
+print(sorted_dict)
+```
 
-## Sample Output
+## Output
+![image](https://github.com/user-attachments/assets/3c44002d-bf46-41ca-a16e-ea9fae0b5b65)
 
 ## Result
-
+Thus,the program is executed sucessfully
